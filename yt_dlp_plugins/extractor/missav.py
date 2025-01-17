@@ -4,9 +4,9 @@ from yt_dlp.extractor.common import InfoExtractor
 
 
 class MissAVIE(InfoExtractor):
-    _VALID_URL = r'https?://(?:www\.)?missav\.com/.*/(?P<id>[\w-]+)'
+    _VALID_URL = r'https?://(?:www\.)?missav\.ws/.*/(?P<id>[\w-]+)'
     _TESTS = [{
-        'url': 'https://missav.com/en/blk-470-uncensored-leak',
+        'url': 'https://missav.ws/en/blk-470-uncensored-leak',
         'md5': 'f1537283a9bc073c31ff86ca35d9b2a6',
         'info_dict': {
             'id': 'blk-470-uncensored-leak',
